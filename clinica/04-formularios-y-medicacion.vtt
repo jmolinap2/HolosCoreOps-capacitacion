@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:17.090
+Cada documento clínico tiene su propio formulario. Abre Expedientes clínicos, elige al paciente, pulsa Crear documento clínico y elige el tipo. Por ejemplo, el formulario 008 de emergencia.
+
+2
+00:00:17.920 --> 00:00:27.180
+El formulario 008 recoge la atención de emergencia por secciones. Escribe un título y elige al responsable clínico.
+
+3
+00:00:28.480 --> 00:00:40.190
+Completa las secciones que correspondan: el profesional responsable, la condición actual y el plan de tratamiento. Guarda como borrador y termínalo cuando tengas todos los datos.
+
+4
+00:01:03.760 --> 00:01:15.570
+Para un procedimiento que necesita autorización, crea un consentimiento informado. Escribe el título, elige al responsable, y completa los propósitos, la intervención y los riesgos.
+
+5
+00:01:49.360 --> 00:01:59.695
+Pulsa Cerrar documento clínico y confirma. Si el paciente aún no firmó, el sistema te avisa: este documento exige la evidencia de la firma física.
+
+6
+00:02:00.520 --> 00:02:10.130
+Cierra el aviso y pulsa el clip para gestionar los adjuntos. Elige el archivo escaneado, indica que es evidencia de firma física, y guarda.
+
+7
+00:02:17.720 --> 00:02:27.180
+Con la evidencia adjunta, pulsa otra vez Cerrar documento clínico y confirma. El consentimiento queda cerrado y el adjunto se puede descargar.
+
+8
+00:02:27.960 --> 00:02:38.145
+Para indicar un medicamento, crea un documento de administración de medicamentos. Escribe el título, elige al responsable y su nombre como profesional.
+
+9
+00:02:40.360 --> 00:02:51.420
+En Órdenes de medicación, pulsa Agregar fila y escribe el medicamento, la presentación y dosis, la vía y la frecuencia. Agrega una observación y guarda el borrador.
+
+10
+00:03:09.480 --> 00:03:16.190
+Cuando la indicación está completa, ciérrala. Solo los documentos cerrados se pueden dispensar.
+
+11
+00:03:18.080 --> 00:03:27.920
+Ahora le toca a farmacia. En el expediente, el documento cerrado muestra el botón Dispensar. Pulsa para ver las órdenes del documento.
+
+12
+00:03:28.720 --> 00:03:36.830
+Pulsa Dispensar junto a la orden. Elige la bodega de farmacia, el producto del inventario y la cantidad que entregas.
+
+13
+00:03:37.680 --> 00:03:45.240
+Pulsa Dispensar. La entrega queda en el historial de la orden y el inventario de farmacia se descuenta solo.
+
+14
+00:03:46.000 --> 00:03:55.310
+Si se entregó algo por error, pulsa Revertir. El sistema pide el motivo, devuelve el producto a la bodega y conserva el registro en el historial.
+
+15
+00:03:59.120 --> 00:04:12.885
+Listo. Ya sabes completar los formularios clínicos, gestionar un consentimiento y dispensar medicación. Esta herramienta no reemplaza una receta legal ni el control de farmacia de tu establecimiento.

@@ -1,0 +1,21 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:10.835
+Cuentas por cobrar concentra los saldos abiertos. Confirma importe, vencimiento y saldo antes de hacer un cobro.
+
+2
+00:00:11.640 --> 00:00:20.625
+El botón de cobro abre el registro de pago de la cuenta seleccionada. Escribe solo el importe recibido y conserva una referencia.
+
+3
+00:00:21.400 --> 00:00:30.485
+Antigüedad CxC agrupa los saldos por tiempo vencido. Úsala para priorizar seguimiento, no para modificar facturas anteriores.
+
+4
+00:00:31.280 --> 00:00:40.590
+Antes de registrar un movimiento, abre una sesión para la caja correcta. Los ingresos y egresos necesitan fecha, importe y referencia.
+
+5
+00:00:41.360 --> 00:00:50.170
+El arqueo compara efectivo contado y movimientos registrados. Resuelve diferencias con evidencia antes de cerrar la sesión.

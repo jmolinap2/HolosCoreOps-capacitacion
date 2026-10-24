@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capacitación clínica · HolosCoreOps</title>
+<style>
+:root{
+  color-scheme:dark light;
+  --bg:#082b30;--surface:#0f3f44;--surface-2:#145056;--line:#2f6b70;
+  --text:#eef9f8;--muted:#b7d6d8;--accent:#8ce6df;--on-accent:#06272b;
+  --ok:#8ce6a8;--wait:#f4d58d;--focus:#ffffff;
+}
+@media (prefers-color-scheme:light){
+  :root{
+    --bg:#f3f8f8;--surface:#ffffff;--surface-2:#e3f0f0;--line:#b8d3d5;
+    --text:#10333a;--muted:#4b6f74;--accent:#0b6b73;--on-accent:#ffffff;
+    --ok:#17693a;--wait:#8a5a00;--focus:#10333a;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}
+main{max-width:1240px;margin:0 auto;padding:24px 16px 48px}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+h1{font-size:clamp(26px,4.5vw,38px);line-height:1.15;margin:0 0 8px}
+.lead{max-width:70ch;margin:0 0 14px;color:var(--muted)}
+
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px;align-items:start}
+
+/* Escenario: reproductor + temas del video elegido */
+.stage-media{border-radius:14px;overflow:hidden;background:#000;aspect-ratio:16/9;position:relative}
+.stage-media video{display:block;width:100%;height:100%;background:#000}
+.placeholder{position:absolute;inset:0;display:grid;place-content:center;gap:8px;padding:24px;text-align:center;background:linear-gradient(135deg,var(--surface-2),var(--surface));color:var(--text)}
+.placeholder .big{font-size:clamp(18px,3vw,26px);font-weight:700}
+.placeholder .small{color:var(--muted);font-size:14px;max-width:44ch;margin:0 auto}
+.stage-body{padding:16px 2px 0}
+.stage-body h2{margin:0 0 6px;font-size:clamp(20px,3vw,26px);line-height:1.25}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:0 0 10px;font-size:14px;color:var(--muted)}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:2px 10px;border-radius:999px;border:1px solid currentColor;font-size:13px;font-weight:600}
+.badge::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.badge.ok{color:var(--ok)}
+.badge.wait{color:var(--wait)}
+.topics{margin:14px 0 0;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.topics h3{margin:0 0 6px;font-size:16px}
+.topics ul{margin:0;padding-left:20px}
+.topics li{margin:3px 0}
+.requires{margin:12px 0 0;font-size:14px;color:var(--muted)}
+.step{display:flex;gap:10px;margin-top:16px}
+.step button{flex:1;min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--text);font:inherit;font-size:15px;cursor:pointer;transition:border-color .15s,background .15s}
+.step button:hover:not(:disabled){border-color:var(--accent);background:var(--surface-2)}
+.step button:disabled{opacity:.45;cursor:default}
+
+/* Lista de temas / videos */
+.side{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;padding:16px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.side h2{margin:0 0 10px;font-size:16px}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.filters button{min-height:36px;padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface-2);color:var(--text);font:inherit;font-size:14px;cursor:pointer;transition:background .15s,border-color .15s}
+.filters button:hover{border-color:var(--accent)}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent);font-weight:600}
+.group{margin:14px 0 6px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.list li[hidden]{display:none}
+.list a{display:flex;align-items:center;gap:12px;min-height:52px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);text-decoration:none;transition:border-color .15s,background .15s}
+.list a:hover{border-color:var(--accent)}
+.list a[aria-current="true"]{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 22%,var(--surface-2));box-shadow:inset 3px 0 0 var(--accent)}
+.list .n{flex:none;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--accent);color:var(--on-accent);font-weight:700;font-size:14px}
+.list li[data-ready="false"] .n{background:transparent;border:2px solid var(--muted);color:var(--muted)}
+.list .txt{min-width:0;display:grid;line-height:1.3}
+.list .t{font-size:15px}
+.list .s{font-size:13px;color:var(--muted)}
+.empty{padding:12px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);font-size:14px}
+
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .side{position:static;max-height:none}
+  /* En móvil el video queda fijo arriba mientras se leen los temas */
+  .stage-media{position:sticky;top:0;z-index:5;border-radius:0 0 14px 14px;margin:0 -16px;box-shadow:0 6px 16px rgba(0,0,0,.35)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">HolosCoreOps · Guías clínicas</p>
+  <h1>Capacitación clínica</h1>
+  <p class="lead">Siete videos cortos, uno por tipo de trabajo. Elige el de tu función o sigue la lista en orden. Los temas de cada video aparecen debajo del reproductor.</p>
+
+  <div class="layout">
+    <section id="stage" aria-live="polite" aria-label="Video seleccionado"></section>
+
+    <aside class="side" aria-label="Lista de videos">
+      <h2 id="filter-title">Ver por función</h2>
+      <div class="filters" id="filters" role="group" aria-labelledby="filter-title"></div>
+      <ol class="list" id="list"></ol>
+      <p class="empty" id="empty" hidden>No hay videos para esta función todavía.</p>
+      <p class="group" id="legacy-title" hidden>Guías rápidas</p>
+      <ol class="list" id="legacy-list" hidden></ol>
+    </aside>
+  </div>
+
+</main>
+
+<script src="catalogo.js"></script>
+<script>
+(function () {
+  var roles = window.TRAINING_ROLES || [];
+  var videos = (window.TRAINING_VIDEOS || []).map(function (v) {
+    return Object.assign({ id: 'video-' + v.number, legacy: false }, v);
+  });
+  var legacy = (window.TRAINING_LEGACY || []).map(function (v, i) {
+    return { id: 'anterior-' + (i + 1), legacy: true, number: i + 1, title: v.title, file: v.file, seconds: v.seconds,
+      audience: [], audienceLabel: '', requires: [], covers: [], status: 'disponible', summary: '' };
+  });
+  var all = videos.concat(legacy);
+
+  var stage = document.getElementById('stage');
+  var list = document.getElementById('list');
+  var legacyList = document.getElementById('legacy-list');
+  var filters = document.getElementById('filters');
+  var empty = document.getElementById('empty');
+  var filter = 'todos';
+  var currentId = null;
+  try { filter = localStorage.getItem('capacitacion-clinica-filtro') || 'todos'; } catch (e) {}
+  if (filter !== 'todos' && !roles.some(function (r) { return r.key === filter; })) filter = 'todos';
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function ready(v) { return v.status === 'disponible'; }
+  function duration(v) {
+    if (v.legacy) return v.seconds + ' s';
+    return (ready(v) ? '' : '≈ ') + v.minutes + ' min';
+  }
+  function byId(id) { return all.filter(function (v) { return v.id === id; })[0]; }
+
+  // Lista lateral
+  function buildItem(v) {
+    var li = el('li');
+    li.setAttribute('data-id', v.id);
+    li.setAttribute('data-ready', ready(v) ? 'true' : 'false');
+    li.setAttribute('data-audience', v.audience.join(' '));
+    var a = el('a');
+    a.href = '#' + v.id;
+    a.appendChild(el('span', 'n', v.legacy ? '▶' : String(v.number)));
+    var txt = el('span', 'txt');
+    txt.appendChild(el('span', 't', v.title));
+    txt.appendChild(el('span', 's', (v.legacy ? '' : (ready(v) ? 'Disponible' : 'Próximamente') + ' · ') + duration(v)));
+    a.appendChild(txt);
+    li.appendChild(a);
+    return li;
+  }
+  videos.forEach(function (v) { list.appendChild(buildItem(v)); });
+  if (legacy.length) {
+    legacy.forEach(function (v) { legacyList.appendChild(buildItem(v)); });
+    legacyList.hidden = false;
+    document.getElementById('legacy-title').hidden = false;
+  }
+
+  function mark() {
+    Array.prototype.forEach.call(document.querySelectorAll('.list a'), function (a) {
+      if (a.getAttribute('href') === '#' + currentId) a.setAttribute('aria-current', 'true');
+      else a.removeAttribute('aria-current');
+    });
+  }
+
+  function placeholder(title, text) {
+    var p = el('div', 'placeholder');
+    p.appendChild(el('div', 'big', title));
+    p.appendChild(el('div', 'small', text));
+    return p;
+  }
+
+  // Escenario
+  function show(id, scroll) {
+    var v = byId(id) || videos[0];
+    if (!v) return;
+    currentId = v.id;
+    stage.textContent = '';
+
+    var media = el('div', 'stage-media');
+    if (ready(v)) {
+      var vid = el('video');
+      vid.controls = true;
+      vid.preload = 'metadata';
+      vid.setAttribute('playsinline', '');
+      vid.src = v.file;
+      if (v.subtitles) {
+        var track = el('track');
+        track.kind = 'subtitles';
+        track.srclang = 'es';
+        track.label = 'Español';
+        track.src = v.subtitles;
+        vid.appendChild(track);
+      }
+      vid.addEventListener('error', function () {
+        media.textContent = '';
+        media.appendChild(placeholder('No se pudo cargar el video', 'Comprueba que el archivo ' + v.file + ' esté en la carpeta.'));
+      });
+      media.appendChild(vid);
+    } else {
+      media.appendChild(placeholder('Próximamente', 'Este video estará disponible pronto. Mientras tanto, abajo puedes ver qué temas cubrirá.'));
+    }
+    stage.appendChild(media);
+
+    var body = el('div', 'stage-body');
+    body.appendChild(el('h2', null, (v.legacy ? '' : v.number + '. ') + v.title));
+    var meta = el('div', 'meta');
+    if (!v.legacy) meta.appendChild(el('span', 'badge ' + (ready(v) ? 'ok' : 'wait'), ready(v) ? 'Disponible' : 'Próximamente'));
+    if (!v.legacy) meta.appendChild(el('span', null, 'Para: ' + v.audienceLabel));
+    meta.appendChild(el('span', null, duration(v)));
+    body.appendChild(meta);
+
+    if (!v.legacy) {
+      body.appendChild(el('p', null, v.summary));
+      var topics = el('section', 'topics');
+      topics.appendChild(el('h3', null, 'Qué verás'));
+      var ul = el('ul');
+      v.covers.forEach(function (c) { ul.appendChild(el('li', null, c)); });
+      topics.appendChild(ul);
+      body.appendChild(topics);
+      if (v.requires.length) {
+        var req = el('p', 'requires');
+        req.appendChild(document.createTextNode('Antes, mira: '));
+        v.requires.forEach(function (n, i) {
+          if (i) req.appendChild(document.createTextNode(', '));
+          var a = el('a', null, 'video ' + n);
+          a.href = '#video-' + n;
+          req.appendChild(a);
+        });
+        body.appendChild(req);
+      }
+    }
+
+    // Anterior / siguiente dentro de su serie
+    var group = v.legacy ? legacy : videos;
+    var i = group.indexOf(v);
+    var step = el('div', 'step');
+    var prev = el('button', null, '← Anterior');
+    var next = el('button', null, 'Siguiente →');
+    prev.type = next.type = 'button';
+    prev.disabled = i <= 0;
+    next.disabled = i >= group.length - 1;
+    prev.addEventListener('click', function () { location.hash = group[i - 1].id; });
+    next.addEventListener('click', function () { location.hash = group[i + 1].id; });
+    step.appendChild(prev);
+    step.appendChild(next);
+    body.appendChild(step);
+
+    stage.appendChild(body);
+    mark();
+    if (scroll) window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Filtros
+  function applyFilter() {
+    var shown = 0;
+    Array.prototype.forEach.call(list.children, function (li) {
+      var match = filter === 'todos' || li.getAttribute('data-audience').split(' ').indexOf(filter) !== -1;
+      li.hidden = !match;
+      if (match) shown++;
+    });
+    empty.hidden = shown !== 0;
+    Array.prototype.forEach.call(filters.children, function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-key') === filter ? 'true' : 'false');
+    });
+    try { localStorage.setItem('capacitacion-clinica-filtro', filter); } catch (e) {}
+  }
+  [{ key: 'todos', label: 'Todos' }].concat(roles).forEach(function (r) {
+    var b = el('button', null, r.label);
+    b.type = 'button';
+    b.setAttribute('data-key', r.key);
+    b.addEventListener('click', function () { filter = r.key; applyFilter(); });
+    filters.appendChild(b);
+  });
+  applyFilter();
+
+  // Al abrir la página se elige el primer video que ya se puede ver (de la serie nueva o, si no hay, de la anterior).
+  function defaultId() {
+    var first = videos.filter(ready)[0] || legacy[0] || videos[0];
+    return first && first.id;
+  }
+
+  function fromHash(scroll) {
+    var id = location.hash.replace('#', '');
+    if (id === currentId) return;
+    show(byId(id) ? id : (currentId || defaultId()), scroll);
+  }
+  window.addEventListener('hashchange', function () { fromHash(true); });
+  fromHash(false);
+})();
+</script>
+</body>
+</html>

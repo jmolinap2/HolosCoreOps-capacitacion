@@ -1,0 +1,53 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:15.510
+Todo cobro nace de un contrato. Abre el caso quirúrgico y entra a la pestaña Cuenta del caso: ahí ves la factura del contrato, el anticipo que ya se registró y lo que falta por cobrar.
+
+2
+00:00:16.320 --> 00:00:25.455
+Para registrar un cobro, abre Ventas, Facturas de venta, y busca la factura por su número. Fíjate en el estado y en el saldo pendiente.
+
+3
+00:00:26.240 --> 00:00:35.900
+Antes de cobrar, abre el detalle con el ojo. Comprueba el cliente, lo que se facturó y los pagos anteriores, para no cobrar dos veces lo mismo.
+
+4
+00:00:36.680 --> 00:00:48.895
+Pulsa Registrar pago, el botón del dólar. Escribe el monto, elige la forma de pago, y agrega la referencia y una nota. Si el cliente paga una parte, escribe solo esa parte.
+
+5
+00:00:57.320 --> 00:01:05.255
+Pulsa Registrar pago. La factura queda en Pago parcial y el saldo baja de 1350 a 500.
+
+6
+00:01:06.040 --> 00:01:17.125
+La cartera muestra todo lo que los clientes aún deben. Abre Contabilidad, Cuentas por cobrar, y busca la factura: allí aparece el saldo pendiente y qué tan vencida está.
+
+7
+00:01:17.920 --> 00:01:24.825
+El informe de antigüedad agrupa los saldos por días de vencimiento, para saber a quién hay que cobrar primero.
+
+8
+00:01:25.640 --> 00:01:35.350
+Cuando el paciente paga el resto, vuelve a Facturas de venta y registra el pago por el saldo. Revisa el monto: el sistema propone el saldo completo.
+
+9
+00:01:46.400 --> 00:01:53.560
+La factura pasa a Pagada y su saldo queda en cero. Ya no se puede registrar otro cobro sobre ella.
+
+10
+00:01:54.360 --> 00:02:06.075
+Cada cobro genera su asiento contable automáticamente. Abre Contabilidad, Asientos contables, y busca el número de la factura. No lo repitas con un asiento manual.
+
+11
+00:02:06.880 --> 00:02:15.465
+Abre el asiento con el ojo. El debe y el haber deben cuadrar, y la descripción indica la factura y la referencia del cobro.
+
+12
+00:02:16.280 --> 00:02:27.695
+Antes de cerrar el mes, revisa los Períodos fiscales. Una fecha solo se puede usar si su período está abierto. El cierre le corresponde al responsable contable.
+
+13
+00:02:28.520 --> 00:02:39.960
+Listo. Ya sabes registrar los cobros de una cirugía, revisar la cartera y comprobar su asiento contable. Con esto termina la serie de capacitación clínica.

@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:10.610
+Empieza por un proveedor activo. La orden deja claro qué se solicita, a qué bodega y por qué cantidades.
+
+2
+00:00:11.440 --> 00:00:18.900
+Agrega productos, cantidades, precios e impuestos. Antes de confirmar, comprueba bodega y proveedor.
+
+3
+00:00:20.040 --> 00:00:28.325
+La recepción confirma lo que llegó realmente. Puede ser parcial: no marques como recibido lo que todavía no ingresó.
+
+4
+00:00:29.120 --> 00:00:37.405
+Revisa número, fechas, líneas e impuestos antes de aprobar la factura. Entonces nace la obligación por pagar.
+
+5
+00:00:38.200 --> 00:00:45.860
+La retención se crea desde la factura aprobada. Confirma bases y porcentajes antes de contabilizarla.
+
+6
+00:00:46.800 --> 00:00:56.160
+Busca la obligación, revisa saldo y vencimiento, y abre Aplicar pago. Conserva una referencia que permita encontrar el pago después.

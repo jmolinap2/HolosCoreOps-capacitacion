@@ -1,0 +1,29 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:12.160
+Una venta empieza con un cliente identificado. En Ventas, Clientes, abre Crear para revisar los datos que se piden antes de guardar.
+
+2
+00:00:13.000 --> 00:00:22.685
+El pedido reúne cliente, productos y cantidades. Revisa proveedor, bodega e impuestos antes de confirmarlo: será el origen de la factura.
+
+3
+00:00:23.440 --> 00:00:32.525
+La factura documenta el valor a cobrar. Busca por número y abre el detalle con el icono de ver para confirmar cliente, líneas y saldo.
+
+4
+00:00:33.320 --> 00:00:42.130
+Desde una factura emitida, Registrar pago pide importe, forma de pago y referencia. Un cobro parcial deja el resto pendiente.
+
+5
+00:00:42.880 --> 00:00:51.385
+Usa una nota de crédito o débito para un ajuste documentado de una factura emitida; no para corregir datos que aún se pueden editar.
+
+6
+00:00:52.160 --> 00:01:01.745
+En Documentos electrónicos revisa el estado y descarga XML o RIDE. En pruebas, esta evidencia no equivale a una emisión de producción.
+
+7
+00:01:02.560 --> 00:01:12.345
+Importar XML electrónico permite revisar comprobantes de otro facturador. Valida emisor, total y tipo antes de usarlo en Compras.

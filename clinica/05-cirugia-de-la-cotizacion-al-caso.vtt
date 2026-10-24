@@ -1,0 +1,53 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:13.760
+Toda cirugía empieza con una cotización. Abre Atención clínica, Cirugía ambulatoria, Cotizaciones y contratos, y pulsa Nueva cotización quirúrgica.
+
+2
+00:00:14.560 --> 00:00:22.165
+Elige al paciente, el procedimiento y el primer servicio que vas a cotizar, por ejemplo, los honorarios del cirujano.
+
+3
+00:00:22.960 --> 00:00:33.625
+Agrega otra línea para el derecho de quirófano. El subtotal se calcula solo. Escribe los términos: qué incluye el precio y cómo funciona el anticipo.
+
+4
+00:00:48.640 --> 00:00:54.650
+Pulsa Guardar. La cotización queda como borrador, con su número consecutivo.
+
+5
+00:00:56.080 --> 00:01:03.365
+Cuando el precio está listo, pulsa Emitir y confirma. Una cotización emitida ya no se puede editar.
+
+6
+00:01:04.160 --> 00:01:16.775
+Si el paciente acepta, pulsa Aceptar contrato. Registra quién acepta y la referencia del documento firmado, elige la bodega y confirma. La venta se reconoce en este momento.
+
+7
+00:01:21.040 --> 00:01:33.105
+Para reservar el quirófano, pulsa Registrar anticipo. Indica el monto, la forma de pago y la referencia de la transferencia. El anticipo es un abono sobre el cobro del contrato.
+
+8
+00:01:40.720 --> 00:01:47.655
+Abre el detalle del contrato. Verás el total, lo pagado y el saldo, con el anticipo registrado.
+
+9
+00:01:48.480 --> 00:01:59.595
+Cierra el detalle y pulsa Crear caso. Elige al cirujano, su rol y agrega observaciones. El caso reutiliza el cobro del contrato, y no factura otra vez.
+
+10
+00:02:05.360 --> 00:02:14.225
+Ahora reserva el quirófano. Abre Programación: el calendario semanal muestra cada sala. Pulsa Programar cirugía.
+
+11
+00:02:15.080 --> 00:02:25.440
+Elige al paciente y el quirófano, indica la hora de inicio y de fin, y marca el procedimiento. El sistema no permite dos cirugías cruzadas en la misma sala.
+
+12
+00:02:26.240 --> 00:02:37.405
+Pulsa Guardar. La cirugía aparece como un bloque en el calendario, en la sala y el horario elegidos. Si queda en otra semana, usa las flechas para llegar a ella.
+
+13
+00:02:38.240 --> 00:02:47.405
+Listo. El caso quirúrgico está creado y el quirófano reservado. En el siguiente video verás los insumos y los honorarios.

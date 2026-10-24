@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:14.985
+Cada procedimiento tiene una receta: la lista de insumos que normalmente necesita. Abre Configuración de cirugía ambulatoria y elige el procedimiento para ver su receta vigente.
+
+2
+00:00:15.800 --> 00:00:24.110
+Para cambiar la receta, pulsa Nueva versión y ajusta las cantidades. La versión anterior no se pierde: queda en el historial.
+
+3
+00:00:31.640 --> 00:00:39.975
+Abre el caso quirúrgico y pulsa Logística de insumos. Aquí se controla todo el recorrido de los insumos de esta cirugía.
+
+4
+00:00:40.760 --> 00:00:50.925
+Pulsa Solicitar insumos de la receta. Elige la bodega de origen, la farmacia, y la bodega de destino, el quirófano. Pulsa Crear solicitud.
+
+5
+00:00:51.720 --> 00:01:01.105
+Pulsa Despachar: el inventario sale de la farmacia. Cuando el material llega al quirófano, pulsa Recibir, y el inventario entra a esa bodega.
+
+6
+00:01:01.920 --> 00:01:12.030
+Durante la cirugía, registra lo que realmente se usó. Pulsa Registrar consumo de insumo, elige la bodega del quirófano, el producto y la cantidad.
+
+7
+00:01:12.840 --> 00:01:23.125
+Si se usó algo que no estaba incluido en el contrato, marca el consumo como artículo adicional pendiente de cobro. Así se le cobrará aparte al paciente.
+
+8
+00:01:23.920 --> 00:01:35.910
+Lo que sobra se devuelve. En Devolver insumos sobrantes verás lo recibido, lo consumido y lo que se puede devolver. Escribe las cantidades y pulsa Solicitar devolución.
+
+9
+00:01:36.680 --> 00:01:45.185
+La devolución sigue el mismo camino, pero al revés: se despacha desde el quirófano y se recibe en la farmacia, que recupera el inventario.
+
+10
+00:01:45.920 --> 00:01:56.735
+Los adicionales llegan a Pendientes de cobro. Para cobrar uno, pulsa Cobrar y confirma. Se genera una factura aparte, sin volver a descontar inventario.
+
+11
+00:01:57.600 --> 00:02:05.935
+Si decides no cobrar un adicional, pulsa Condonar. El motivo es obligatorio y queda registrado, con la fecha y el usuario.
+
+12
+00:02:15.800 --> 00:02:26.160
+Cuando la cirugía terminó y los consumos están al día, pulsa Completar en el caso. El honorario de cada participante se congela con la tarifa de su rol.
+
+13
+00:02:26.960 --> 00:02:41.730
+Ahora los honorarios. Abre Liquidaciones de honorarios. Elige la semana con Fecha desde y Fecha hasta, y pulsa Generar liquidaciones semanales. Cada profesional recibe una liquidación con los casos completados.
+
+14
+00:02:42.560 --> 00:02:50.170
+Revisa el importe y pulsa Aprobar. Una liquidación aprobada ya no cambia, salvo con ajustes explicados.
+
+15
+00:02:51.000 --> 00:03:00.590
+Si hay que descontar o sumar algo, pulsa Agregar ajuste. Un monto negativo descuenta. Escribe el motivo, para que quede trazable.
+
+16
+00:03:04.440 --> 00:03:12.000
+Cuando pagues al profesional, pulsa Marcar como pagada. La liquidación queda cerrada, con el total ajustado.
+
+17
+00:03:12.760 --> 00:03:24.350
+Listo. Ya sabes llevar los insumos de una cirugía, resolver los cargos adicionales y pagar los honorarios. En el último video verás los cobros y la contabilidad.

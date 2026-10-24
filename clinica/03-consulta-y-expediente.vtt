@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:13.485
+Cuando el paciente llega, abre su cita en el listado y pulsa Abrir consulta clínica, el icono del estetoscopio. Así no tienes que volver a escribir sus datos.
+
+2
+00:00:14.280 --> 00:00:25.090
+La consulta se abre como borrador, con el paciente, la especialidad, la fecha y el motivo que venían de la cita. Ahora completa lo que se observó durante la atención.
+
+3
+00:00:25.880 --> 00:00:32.365
+Escribe el peso y la talla del paciente. El índice de masa corporal se calcula solo.
+
+4
+00:00:33.160 --> 00:00:42.195
+En antecedentes, indica Sí o No y agrega una observación cuando haga falta. Por ejemplo, sin hipertensión, y alergia a la penicilina.
+
+5
+00:00:43.000 --> 00:00:49.135
+Cuando termines, pulsa Guardar. Puedes volver a editarla mientras siga en borrador.
+
+6
+00:00:49.920 --> 00:00:59.605
+Si el paciente llega sin cita, crea la consulta directamente. Pulsa Nueva consulta, elige al paciente y la especialidad, y escribe el motivo.
+
+7
+00:01:16.920 --> 00:01:27.280
+En el listado, el botón Seguimiento muestra el historial de la consulta y permite cambiar su estado. Elige Atendida, agrega una nota y pulsa Aplicar cambio.
+
+8
+00:01:35.440 --> 00:01:44.775
+Todo lo que se escribe sobre el paciente queda en su expediente clínico. Abre Expedientes clínicos y elige al paciente y el tipo de documento.
+
+9
+00:01:45.560 --> 00:01:53.595
+Pulsa Crear documento clínico. Escribe un título y elige al responsable clínico, que es quien firma la atención.
+
+10
+00:01:57.320 --> 00:02:12.960
+Escribe el nombre del profesional responsable, la evolución clínica y la indicación. Sin el profesional responsable no podrás cerrar el documento. Guarda como borrador: mientras sea borrador, puedes cambiarlo cuantas veces haga falta.
+
+11
+00:02:26.360 --> 00:02:34.970
+El documento aparece como borrador en el expediente. Pulsa el lápiz para editarlo: aquí, por ejemplo, agregamos un dato más.
+
+12
+00:02:50.640 --> 00:03:00.250
+Cuando el documento está completo, pulsa Cerrar documento clínico. Desde ese momento ya no se puede modificar, y eso protege el expediente.
+
+13
+00:03:01.040 --> 00:03:06.645
+Quien revisa la calidad puede marcar el documento como Auditado, después de comprobarlo.
+
+14
+00:03:07.800 --> 00:03:16.885
+Si hay que corregir algo, no se edita el original: se crea una enmienda. Pulsa Crear enmienda, explica el motivo y escribe la corrección.
+
+15
+00:03:34.480 --> 00:03:40.385
+El original y la enmienda quedan juntos en el expediente, para que se vea qué cambió y por qué.
+
+16
+00:03:41.200 --> 00:03:48.985
+Para entregar un documento, pulsa Exportar. Toda exportación pide un motivo y queda registrada en la auditoría.
+
+17
+00:03:56.400 --> 00:04:06.910
+Para entregar todo el expediente, pulsa Solicitar exportación del expediente. Se genera en segundo plano y la descargas después desde el Centro de descargas.
+
+18
+00:04:14.240 --> 00:04:24.880
+Listo. La consulta y el expediente quedaron registrados. En el siguiente video verás los formularios clínicos, los consentimientos y la medicación.
