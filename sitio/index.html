@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Capacitación · HolosCoreOps</title>
+<style>
+:root{--bg:#082b30;--surface:#0f3f44;--line:#2f6b70;--text:#eef9f8;--muted:#b7d6d8;--accent:#8ce6df;--focus:#ffffff;color-scheme:dark light}
+@media (prefers-color-scheme:light){:root{--bg:#f3f8f8;--surface:#ffffff;--line:#b8d3d5;--text:#10333a;--muted:#4b6f74;--accent:#0b6b73;--focus:#10333a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:56rem;margin:0 auto;padding:2.5rem 1rem 3rem}
+h1{margin:0 0 .25rem;font-size:1.9rem}
+p.lead{margin:0 0 2rem;color:var(--muted)}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+a.serie{display:flex;flex-direction:column;gap:.5rem;height:100%;padding:1.25rem;background:var(--surface);border:1px solid var(--line);border-radius:.75rem;color:inherit;text-decoration:none}
+a.serie:hover{border-color:var(--accent)}
+a.serie:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.serie__titulo{font-size:1.2rem;font-weight:700;color:var(--accent)}
+.serie__texto{color:var(--muted)}
+.serie__meta{margin-top:auto;font-size:.9rem;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+  <h1>Capacitación en video</h1>
+  <p class="lead">Elige la serie que corresponde a tu trabajo.</p>
+  <ul>
+      <li>
+        <a class="serie" href="clinica/">
+          <span class="serie__titulo">Capacitación clínica</span>
+          <span class="serie__texto">Acceso y equipo clínico, pacientes y citas, consulta y expediente, formularios, cirugía ambulatoria, insumos, cobros y contabilidad.</span>
+          <span class="serie__meta">7 videos</span>
+        </a>
+      </li>
+      <li>
+        <a class="serie" href="financiera/">
+          <span class="serie__titulo">Capacitación financiera</span>
+          <span class="serie__texto">Ventas y facturación electrónica, compras y pagos, cobros, cartera y caja, contabilidad operativa y cierre.</span>
+          <span class="serie__meta">4 videos</span>
+        </a>
+      </li>
+  </ul>
+</main>
+</body>
+</html>
