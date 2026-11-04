@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:17.890
+En Ingresos y seguimiento, pulsa Registrar ingreso. Elige al paciente, indica la fecha y, si la clínica lo usa, la habitación o cama. No es obligatorio para programar una cirugía ni administra camas: es solo un registro.
+
+2
+00:00:22.960 --> 00:00:37.000
+Cuando el paciente se va, pulsa Dar de alta en su fila. Indica la fecha, el destino y las indicaciones. Si todavía no hay una epicrisis registrada, el sistema solo te lo recuerda: no te impide dar el alta.
+
+3
+00:00:39.120 --> 00:00:51.880
+En Controles, pulsa Generar controles: elige al paciente y los días después de la cirugía, por ejemplo 2, 7 y 30. Se crea un control por cada uno y también puedes programar uno suelto.
+
+4
+00:00:54.880 --> 00:01:06.815
+En el día del control, pulsa Registrar control y anota los hallazgos. Si hay una complicación, márcala y descríbela: queda visible en la lista y se puede filtrar para darle seguimiento.
+
+5
+00:01:14.320 --> 00:01:24.780
+En Auditoría de expedientes, el auditor médico pulsa Abrir revisión y elige al paciente. Ve cuántos documentos hay en borrador, finalizados y auditados.
+
+6
+00:01:29.480 --> 00:01:43.320
+Escribe una observación y pulsa Agregar. Cada observación queda registrada y se marca como resuelta cuando se atiende; no se borra. Los avisos son informativos: puedes aprobar o cerrar de todos modos.
+
+7
+00:01:44.120 --> 00:01:50.380
+Pulsa Aprobar y luego Cerrar expediente. Queda registrado quién lo cerró y cuándo.
+
+8
+00:01:51.480 --> 00:02:00.390
+Si hace falta corregir algo, pulsa Reabrir expediente e indica el motivo. Vuelve a En revisión y el sistema cuenta las reaperturas.
+
+9
+00:02:04.280 --> 00:02:16.890
+En Opciones puedes activar el bloqueo de expedientes cerrados: con el bloqueo, no se crean documentos, enmiendas ni adjuntos hasta reabrir. Viene apagado: cada clínica elige si quiere ese control.

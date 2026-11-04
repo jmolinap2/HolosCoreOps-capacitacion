@@ -140,6 +140,60 @@ window.TRAINING_VIDEOS = [
     file: "07-cobros-cartera-y-contabilidad.mp4",
     subtitles: "07-cobros-cartera-y-contabilidad.vtt",
     status: "disponible"
+  },
+  {
+    number: 8,
+    title: "Firma y sello en los documentos clínicos",
+    audience: ["medico", "administracion"],
+    audienceLabel: "Médico y administración",
+    minutes: 2,
+    requires: [1, 3],
+    summary: "Desde que se sube la firma del profesional hasta ver el PDF firmado.",
+    covers: [
+      "Subir la firma y el sello de un profesional (y sus versiones)",
+      "Cerrar un documento: la firma vigente queda guardada con él",
+      "Exportar el documento y ver la hoja con el responsable y su firma",
+      "Quién ve la firma y por qué es una firma visual, no una firma electrónica"
+    ],
+    file: "08-firma-y-sello-en-los-documentos.mp4",
+    subtitles: "08-firma-y-sello-en-los-documentos.vtt",
+    status: "disponible"
+  },
+  {
+    number: 9,
+    title: "Exámenes, confirmación de citas y fotos clínicas",
+    audience: ["recepcion", "medico"],
+    audienceLabel: "Recepción y médico",
+    minutes: 2,
+    requires: [1, 2],
+    summary: "El seguimiento diario del paciente: qué exámenes faltan, quién confirmó su cita y cómo va su evolución en fotos.",
+    covers: [
+      "Solicitar un examen, con catálogo propio o nombre libre",
+      "Subir el resultado y ver el estado del cobro",
+      "Registrar la confirmación de una cita",
+      "Subir y comparar fotos de antes y después"
+    ],
+    file: "09-examenes-confirmacion-y-fotos.mp4",
+    subtitles: "09-examenes-confirmacion-y-fotos.vtt",
+    status: "disponible"
+  },
+  {
+    number: 10,
+    title: "Auditoría, ingreso y controles posoperatorios",
+    audience: ["cirugia", "medico"],
+    audienceLabel: "Cirugía y auditoría médica",
+    minutes: 3,
+    requires: [3, 5],
+    summary: "Ingreso y alta del paciente, controles después de la cirugía y revisión del expediente por el auditor médico.",
+    covers: [
+      "Registrar el ingreso y dar el alta",
+      "Programar controles a 2, 7 y 30 días y señalar una complicación",
+      "Abrir la auditoría, agregar observaciones, aprobar y cerrar el expediente",
+      "Reabrir con un motivo y decidir si se bloquean los cambios"
+    ],
+    file: "10-auditoria-ingreso-y-controles.mp4",
+    subtitles: "10-auditoria-ingreso-y-controles.vtt",
+    status: "disponible"
   }
 ];
 

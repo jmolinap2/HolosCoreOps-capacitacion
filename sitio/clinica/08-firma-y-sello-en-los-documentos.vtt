@@ -1,0 +1,29 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:15.240
+Cada profesional tiene su firma y su sello. Se guardan como una imagen escaneada, y se suben una sola vez desde Profesionales. Busca al profesional y pulsa Firma y sello.
+
+2
+00:00:16.040 --> 00:00:28.730
+Elige la imagen de la firma y pulsa Cargar nueva versión. Usa solo la firma de la propia persona. Si después cambia, cargas otra versión: las anteriores se conservan en el historial.
+
+3
+00:00:29.560 --> 00:00:40.800
+Ahora abre el expediente del paciente. Este documento de evolución está en borrador y tiene a la doctora como responsable. Mientras sea borrador se puede editar.
+
+4
+00:00:41.640 --> 00:00:59.530
+Pulsa Cerrar documento clínico y confirma. Al cerrar, el sistema guarda una copia de la firma y del sello vigentes, junto con el nombre, el registro profesional, la especialidad y la fecha. Si la firma cambia más adelante, este documento conserva la que tenía al cerrarse.
+
+5
+00:01:00.360 --> 00:01:09.570
+Con el documento cerrado, pulsa Exportar expediente clínico e indica el motivo de la exportación. Queda registrado quién exportó y por qué.
+
+6
+00:01:12.200 --> 00:01:26.585
+El PDF incluye una hoja con el responsable clínico, su registro profesional, su especialidad, la fecha de cierre y la firma o sello escaneado. La firma solo se muestra a quienes tienen el permiso de exportar con firma.
+
+7
+00:01:27.360 --> 00:01:44.175
+La imagen de la firma es una firma visual escaneada. No equivale a una firma electrónica con validez legal: para eso la clínica debe definir su política con asesoría legal. El consentimiento del paciente sigue exigiendo la evidencia de su firma física.
