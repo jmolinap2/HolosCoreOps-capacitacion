@@ -197,5 +197,5 @@ window.TRAINING_VIDEOS = [
   }
 ];
 
-// La serie publicada contiene únicamente los recorridos aprobados de voz B.
+// Los recorridos publicados usan la voz Chatterbox aprobada para la serie clínica.
 window.TRAINING_LEGACY = [];
