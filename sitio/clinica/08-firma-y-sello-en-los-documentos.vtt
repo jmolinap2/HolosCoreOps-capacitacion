@@ -21,9 +21,13 @@ Pulsa Cerrar documento clínico y confirma. Al cerrar, el sistema guarda una cop
 Con el documento cerrado, pulsa Exportar expediente clínico e indica el motivo de la exportación. Queda registrado quién exportó y por qué.
 
 6
-00:01:12.200 --> 00:01:26.585
-El PDF incluye una hoja con el responsable clínico, su registro profesional, su especialidad, la fecha de cierre y la firma o sello escaneado. La firma solo se muestra a quienes tienen el permiso de exportar con firma.
+00:01:12.200 --> 00:01:32.640
+Este es el formulario de evolución y prescripciones. Al pie de la evolución aparece el nombre del profesional y, junto a él, su firma. El formulario toma el nombre del campo Profesional responsable: el sistema lo completa al elegir al responsable, y la firma solo se coloca ahí si coincide con el profesional elegido.
 
 7
-00:01:27.360 --> 00:01:44.175
-La imagen de la firma es una firma visual escaneada. No equivale a una firma electrónica con validez legal: para eso la clínica debe definir su política con asesoría legal. El consentimiento del paciente sigue exigiendo la evidencia de su firma física.
+00:01:33.440 --> 00:01:49.550
+Al final del PDF, una hoja de continuación resume al responsable clínico: su nombre, su registro profesional, su especialidad, la fecha de cierre y la imagen de la firma. La firma solo se muestra a quienes tienen el permiso de exportar con firma.
+
+8
+00:01:50.360 --> 00:02:09.675
+La imagen de la firma es una firma visual escaneada. No equivale a una firma electrónica con validez legal: para eso la clínica debe definir su política con asesoría legal. El Excel de la plantilla no lleva la firma, y el consentimiento del paciente sigue exigiendo la evidencia de su firma física.
