@@ -148,12 +148,12 @@ window.TRAINING_VIDEOS = [
     audienceLabel: "Médico y administración",
     minutes: 2,
     requires: [1, 3],
-    summary: "Desde que se sube la firma del profesional hasta ver el PDF firmado.",
+    summary: "Desde que se carga o dibuja la firma del profesional hasta ver el PDF firmado.",
     covers: [
-      "Subir la firma y el sello de un profesional (y sus versiones)",
+      "Cargar o dibujar la firma y el sello de un profesional (y sus versiones)",
       "Cerrar un documento: la firma vigente queda guardada con él",
       "Exportar el documento y ver la hoja con el responsable y su firma",
-      "Quién ve la firma y por qué es una firma visual, no una firma electrónica"
+      "La versión vigente que conserva cada documento"
     ],
     file: "08-firma-y-sello-en-los-documentos.mp4",
     subtitles: "08-firma-y-sello-en-los-documentos.vtt",

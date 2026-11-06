@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:17.087
-Cada profesional tiene su firma y su sello. Se guardan como una imagen escaneada, y se suben una sola vez desde Profesionales. Busca al profesional y pulsa Firma y sello.
+00:00:03.000 --> 00:00:15.919
+Cada profesional de salud tiene su firma y su sello. Puedes cargar una imagen o dibujar la firma directamente desde Profesionales. Busca al profesional y pulsa Firma y sello.
 
 2
-00:00:17.880 --> 00:00:32.305
-Elige la imagen de la firma y pulsa Cargar nueva versión. Usa solo la firma de la propia persona. Si después cambia, cargas otra versión: las anteriores se conservan en el historial.
+00:00:16.720 --> 00:00:26.375
+Dibuja la firma en el recuadro y pulsa Guardar firma dibujada. Si después cambia, guardas otra versión: las anteriores se conservan en el historial.
 
 3
-00:00:33.080 --> 00:00:46.336
+00:00:27.080 --> 00:00:39.210
 Ahora abre el expediente del paciente. Este documento de evolución está en borrador y tiene a la doctora como responsable. Mientras sea borrador se puede editar.
 
 4
-00:00:47.120 --> 00:01:07.358
+00:00:39.960 --> 00:00:59.891
 Pulsa Cerrar documento clínico y confirma. Al cerrar, el sistema guarda una copia de la firma y del sello vigentes, junto con el nombre, el registro profesional, la especialidad y la fecha. Si la firma cambia más adelante, este documento conserva la que tenía al cerrarse.
 
 5
-00:01:08.120 --> 00:01:18.799
+00:01:00.640 --> 00:01:10.095
 Con el documento cerrado, pulsa Exportar expediente clínico e indica el motivo de la exportación. Queda registrado quién exportó y por qué.
 
 6
-00:01:19.960 --> 00:01:39.376
+00:01:12.480 --> 00:01:31.788
 Este es el PDF: el formulario oficial de evolución y prescripciones, el HCU-form 005. Arriba van los datos del paciente, y en el cuerpo, la fecha, la hora, la nota de evolución y la prescripción. Si algún texto no cabe en su casilla, el PDF agrega al final una hoja con el texto completo.
 
 7
-00:01:40.160 --> 00:02:02.816
+00:01:32.600 --> 00:01:55.160
 El formulario pide firmar al pie de cada evolución y de cada prescripción. Ahí quedan el nombre del profesional, su registro profesional y su firma. El nombre sale del campo Profesional responsable, que el sistema completa al elegir al responsable; la firma solo se coloca si ese nombre coincide con el profesional elegido.
 
 8
-00:02:03.600 --> 00:02:25.070
-La imagen de la firma es una firma visual escaneada. No equivale a una firma electrónica con validez legal: para eso la clínica debe definir su política con asesoría legal. La exportación a Excel no lleva la imagen de la firma, y el consentimiento del paciente sigue exigiendo la evidencia de su firma física.
+00:01:55.960 --> 00:02:11.918
+La firma dibujada queda como una versión del profesional y el documento cerrado conserva la versión que estaba vigente. La exportación a Excel no lleva la imagen de la firma, y el consentimiento del paciente sigue usando su propia evidencia.
