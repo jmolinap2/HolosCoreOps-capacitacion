@@ -170,6 +170,7 @@ window.TRAINING_VIDEOS = [
     covers: [
       "Solicitar un examen, con catálogo propio o nombre libre",
       "Subir el resultado y ver el estado del cobro",
+      "Registrar un examen hecho en otro laboratorio y subir su resultado",
       "Registrar la confirmación de una cita",
       "Subir y comparar fotos de antes y después"
     ],
