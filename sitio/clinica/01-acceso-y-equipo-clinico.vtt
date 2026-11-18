@@ -1,81 +1,81 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:12.683
+00:00:03.000 --> 00:00:11.486
 Empecemos por entrar al sistema. Si tu empresa tiene su propio espacio de trabajo, pulsa Cambiar y escribe su nombre.
 
 2
-00:00:13.480 --> 00:00:17.547
+00:00:12.360 --> 00:00:16.308
 Escribe tu usuario y tu contraseña, y pulsa Iniciar sesión.
 
 3
-00:00:21.400 --> 00:00:34.718
+00:00:20.280 --> 00:00:32.031
 Antes de crear cuentas, prepara los roles. Un rol reúne los permisos de un puesto de trabajo, por ejemplo, recepción. Abre Roles y pulsa Crear.
 
 4
-00:00:35.520 --> 00:00:44.156
+00:00:32.800 --> 00:00:41.317
 Escribe un nombre interno, sin espacios, y el nombre que verá tu equipo. Una descripción corta ayuda a saber para qué sirve.
 
 5
-00:00:50.880 --> 00:01:01.429
+00:00:48.160 --> 00:00:58.464
 En la pestaña Permisos, la vista por tareas muestra lo que la persona podrá hacer. Usa el buscador para encontrar cada tema.
 
 6
-00:01:02.240 --> 00:01:10.242
+00:00:59.240 --> 00:01:07.086
 Marca solo lo necesario. Recepción puede ver, crear y editar pacientes, pero no eliminarlos.
 
 7
-00:01:11.440 --> 00:01:20.861
+00:01:08.440 --> 00:01:17.755
 Haz lo mismo con las citas: ver y crear, y además reprogramar y cancelar. El resumen de la derecha te dice qué podrá hacer la persona.
 
 8
-00:01:23.280 --> 00:01:31.342
+00:01:20.280 --> 00:01:28.243
 Con el filtro Solo marcados, revisa lo que elegiste. Si está bien, pulsa Guardar.
 
 9
-00:01:32.160 --> 00:01:40.111
+00:01:29.040 --> 00:01:36.881
 Ahora crea la cuenta de la persona. Abre Usuarios, pulsa Crear, y escribe su nombre, apellido, usuario y correo.
 
 10
-00:01:46.600 --> 00:01:53.430
+00:01:43.480 --> 00:01:50.213
 Define una contraseña inicial y repítela para confirmarla. Entrégala a la persona por un medio seguro.
 
 11
-00:01:54.760 --> 00:01:59.037
+00:01:51.640 --> 00:01:54.821
 En Roles del usuario, marca el rol que acabas de crear.
 
 12
-00:02:02.120 --> 00:02:15.557
+00:01:59.000 --> 00:02:12.312
 En Compañías, revisa dónde va a trabajar. Si tu empresa tiene una sola compañía, ya viene marcada. Sin una compañía, la persona puede entrar, pero no puede operar.
 
 13
-00:02:16.360 --> 00:02:22.335
+00:02:13.080 --> 00:02:18.856
 Pulsa Guardar. La cuenta aparece en el listado de usuarios.
 
 14
-00:02:23.800 --> 00:02:34.176
+00:02:20.520 --> 00:02:30.701
 Si alguien olvida su contraseña, usa Restablecer la contraseña. Por seguridad, el sistema te pide primero tu propia contraseña de administrador.
 
 15
-00:02:34.960 --> 00:02:46.315
+00:02:31.480 --> 00:02:42.737
 Ahora prepara el equipo clínico. En Especialidades clínicas, pulsa Crear y escribe el nombre. El código se completa solo.
 
 16
-00:02:47.120 --> 00:02:56.456
+00:02:43.480 --> 00:02:51.140
 Si la especialidad atiende solo a ciertas edades, indícalo. Agrega una descripción breve y guarda.
 
 17
-00:03:03.840 --> 00:03:18.324
+00:03:00.200 --> 00:03:12.759
 Por último, registra al profesional. La cuenta de usuario sirve para entrar; el profesional es quien atiende y firma. Pulsa Crear y completa sus datos.
 
 18
-00:03:19.120 --> 00:03:23.466
+00:03:13.680 --> 00:03:16.635
 Busca su especialidad, márcala y guarda.
 
 19
-00:03:30.320 --> 00:03:37.187
-Con Firma y sello, dibuja la firma en el recuadro y guarda la nueva versión.
+00:03:24.880 --> 00:03:31.629
+Con Firma y sello, sube la imagen escaneada de su firma. Usa solo la firma de la propia persona.
 
 20
-00:03:38.640 --> 00:03:49.918
+00:03:33.200 --> 00:03:44.219
 Listo. Ya tienes el rol, la cuenta, la especialidad y el profesional. En el siguiente video, recepción registra pacientes y agenda citas.

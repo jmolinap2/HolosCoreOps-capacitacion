@@ -1,61 +1,61 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:13.167
+00:00:03.000 --> 00:00:13.026
 Empecemos por los pacientes. Abre Atención clínica, Pacientes. Aquí ves a todas las personas registradas y puedes buscarlas.
 
 2
-00:00:13.960 --> 00:00:25.030
+00:00:13.840 --> 00:00:24.800
 Para registrar a una persona nueva, pulsa Crear paciente clínico. Escribe el número de historia clínica, el nombre, el apellido, la identificación y el teléfono.
 
 3
-00:00:26.840 --> 00:00:42.465
+00:00:26.720 --> 00:00:42.254
 Completa la fecha de nacimiento, el sexo, el correo y la dirección. Solo el nombre es obligatorio, pero cuantos más datos tengas, más fácil será atender a la persona después. Pulsa Guardar.
 
 4
-00:00:43.280 --> 00:00:51.022
+00:00:43.040 --> 00:00:50.469
 Para encontrar a un paciente, escribe parte de su apellido en Buscar. El listado se reduce a las coincidencias.
 
 5
-00:00:51.800 --> 00:01:01.840
+00:00:51.280 --> 00:00:59.785
 Si un dato cambió, pulsa Editar en su fila. Por ejemplo, el teléfono. Pulsa Guardar para confirmar.
 
 6
-00:01:02.640 --> 00:01:13.432
+00:01:00.640 --> 00:01:10.840
 Desde su fila también abres el expediente clínico, donde queda todo el historial de la persona. Lo veremos en el video de consulta y expediente.
 
 7
-00:01:14.240 --> 00:01:27.226
+00:01:11.600 --> 00:01:24.480
 Ahora organiza la agenda. Abre Atención clínica, Citas. La agenda semanal muestra qué citas hay cada día y en qué estado están. Con las flechas pasas a otra semana.
 
 8
-00:01:28.040 --> 00:01:33.773
+00:01:25.280 --> 00:01:30.181
 Para trabajar con las citas, pasa a la vista de lista y pulsa Crear cita clínica.
 
 9
-00:01:35.400 --> 00:01:40.587
+00:01:32.640 --> 00:01:37.684
 Elige al paciente que acabas de registrar y la especialidad con la que será atendido.
 
 10
-00:01:51.560 --> 00:01:59.998
+00:01:48.800 --> 00:01:57.132
 Indica la fecha y la hora, el motivo de la consulta y, si quieres, una nota. Pulsa Guardar.
 
 11
-00:02:02.360 --> 00:02:12.270
+00:01:59.600 --> 00:02:09.403
 La cita aparece en estado Programada. Desde sus acciones puedes reprogramarla, completarla, cancelarla o abrir la consulta.
 
 12
-00:02:13.040 --> 00:02:22.069
+00:02:10.200 --> 00:02:18.792
 Si la persona pide otro horario, pulsa Reprogramar, elige la nueva fecha y guarda. La cita sigue programada.
 
 13
-00:02:22.920 --> 00:02:31.503
+00:02:19.680 --> 00:02:27.295
 Si la persona no puede asistir, pulsa Cancelar. El motivo es obligatorio y queda registrado en la cita.
 
 14
-00:02:57.000 --> 00:03:05.969
+00:02:53.760 --> 00:03:02.548
 Cuando la atención ya ocurrió, pulsa Completar y agrega notas de cierre. La cita queda Completada y ya no admite cambios.
 
 15
-00:03:12.200 --> 00:03:24.422
+00:03:08.960 --> 00:03:20.397
 Listo. Ya sabes registrar pacientes y organizar la agenda. En el siguiente video, el médico atiende la consulta y completa el expediente.

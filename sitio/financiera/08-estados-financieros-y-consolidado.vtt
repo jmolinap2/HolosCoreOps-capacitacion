@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:15.010
+00:00:03.000 --> 00:00:14.392
 En Contabilidad, Estados financieros están el balance de comprobación, el balance general y el estado de resultados. Los tres usan las mismas empresas y el mismo rango de fechas.
 
 2
-00:00:15.800 --> 00:00:30.890
+00:00:15.200 --> 00:00:29.145
 Abre el selector y marca las empresas que quieres ver. Con más de una, el resultado es un consolidado gerencial: suma cuenta por cuenta y no elimina las operaciones entre las empresas. Para consolidar, tu plan debe incluirlo.
 
 3
-00:00:31.720 --> 00:00:40.905
+00:00:29.920 --> 00:00:38.485
 Escoge la fecha inicial y la final. Usa un rango dentro del mismo ejercicio para que el estado de resultados muestre solo ese período.
 
 4
-00:00:41.680 --> 00:00:57.800
+00:00:39.280 --> 00:00:53.684
 Pulsa Ejecutar reporte. Una notificación confirma qué se generó. Comprueba que débitos y créditos coincidan: la etiqueta verde lo indica. Las cuentas con saldo inicial aparecen aunque no tengan movimientos en el período.
 
 5
-00:00:58.640 --> 00:01:08.875
+00:00:54.480 --> 00:01:04.045
 Desde el balance de comprobación puedes exportar a PDF o a Excel. Con varias empresas, el documento indica que es un consolidado y suma sus cuentas.
 
 6
-00:01:09.680 --> 00:01:27.070
+00:01:04.840 --> 00:01:21.191
 Cierra la vista previa. En el balance general, marca Desglosar por empresa para ver una columna por cada una y el consolidado. El resultado del ejercicio se suma al patrimonio, y la etiqueta verde confirma que los activos igualan a los pasivos más el patrimonio.
 
 7
-00:01:27.960 --> 00:01:36.665
+00:01:22.000 --> 00:01:30.645
 El estado de resultados muestra solo los ingresos y los gastos del rango elegido, por empresa y consolidado, y al final la utilidad neta.
 
 8
-00:01:37.480 --> 00:01:47.040
+00:01:31.480 --> 00:01:41.568
 Si cambias las empresas o las fechas, un aviso te recuerda volver a ejecutar el reporte. No uses las cifras en pantalla hasta hacerlo.

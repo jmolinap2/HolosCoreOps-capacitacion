@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:03.000 --> 00:00:15.919
+00:00:03.000 --> 00:00:14.842
 Cada profesional de salud tiene su firma y su sello. Puedes cargar una imagen o dibujar la firma directamente desde Profesionales. Busca al profesional y pulsa Firma y sello.
 
 2
-00:00:16.720 --> 00:00:26.375
+00:00:15.640 --> 00:00:24.904
 Dibuja la firma en el recuadro y pulsa Guardar firma dibujada. Si después cambia, guardas otra versión: las anteriores se conservan en el historial.
 
 3
-00:00:27.080 --> 00:00:39.210
+00:00:25.680 --> 00:00:37.012
 Ahora abre el expediente del paciente. Este documento de evolución está en borrador y tiene a la doctora como responsable. Mientras sea borrador se puede editar.
 
 4
-00:00:39.960 --> 00:00:59.891
+00:00:37.800 --> 00:00:56.819
 Pulsa Cerrar documento clínico y confirma. Al cerrar, el sistema guarda una copia de la firma y del sello vigentes, junto con el nombre, el registro profesional, la especialidad y la fecha. Si la firma cambia más adelante, este documento conserva la que tenía al cerrarse.
 
 5
-00:01:00.640 --> 00:01:10.095
+00:00:57.640 --> 00:01:06.293
 Con el documento cerrado, pulsa Exportar expediente clínico e indica el motivo de la exportación. Queda registrado quién exportó y por qué.
 
 6
-00:01:12.480 --> 00:01:31.788
+00:01:09.480 --> 00:01:27.616
 Este es el PDF: el formulario oficial de evolución y prescripciones, el HCU-form 005. Arriba van los datos del paciente, y en el cuerpo, la fecha, la hora, la nota de evolución y la prescripción. Si algún texto no cabe en su casilla, el PDF agrega al final una hoja con el texto completo.
 
 7
-00:01:32.600 --> 00:01:55.160
+00:01:28.440 --> 00:01:49.261
 El formulario pide firmar al pie de cada evolución y de cada prescripción. Ahí quedan el nombre del profesional, su registro profesional y su firma. El nombre sale del campo Profesional responsable, que el sistema completa al elegir al responsable; la firma solo se coloca si ese nombre coincide con el profesional elegido.
 
 8
-00:01:55.960 --> 00:02:11.918
+00:01:50.080 --> 00:02:05.514
 La firma dibujada queda como una versión del profesional y el documento cerrado conserva la versión que estaba vigente. La exportación a Excel no lleva la imagen de la firma, y el consentimiento del paciente sigue usando su propia evidencia.
