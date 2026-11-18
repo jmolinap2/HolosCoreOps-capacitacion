@@ -4,3 +4,6 @@
   Referrer-Policy: no-referrer
 /*.mp4
   Cache-Control: public, max-age=86400
+/publicidad/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=86400
